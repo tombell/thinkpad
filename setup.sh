@@ -21,6 +21,7 @@ sudo pacman -S --noconfirm --needed - <<EOF
 bluetui
 brightnessctl
 btop
+dunst
 fastfetch
 fd
 ffmpeg
@@ -38,7 +39,6 @@ impala
 imv
 less
 libyaml
-mako
 man-db
 mise
 neovim
@@ -48,7 +48,6 @@ qt6ct
 ripgrep
 rofi
 sbctl
-swayosd
 unzip
 usage
 uwsm
@@ -58,6 +57,7 @@ wiremix
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
+zoxide
 zsh
 zsh-autosuggestions
 zsh-completions
