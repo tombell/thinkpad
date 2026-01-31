@@ -144,7 +144,7 @@ yay -S --noconfirm --needed --removemake apple-fonts noto-fonts noto-fonts-cjk n
 
 if [ ! -f "$HOME/.local/share/fonts/IosevkaCustom.ttc" ]; then
   mkdir -p "$HOME/.local/share/fonts"
-  curl -Os https://tombell-homebrew-assets.s3.us-east-1.amazonaws.com/IosevkaCustom-33.3.0.zip
+  curl -Os https://tombell-homebrew-assets.s3.us-east-1.amazonaws.com/IosevkaCustom-34.0.0.zip
   unzip IosevkaCustom-*.zip
   mv IosevkaCustom.ttc "$HOME/.local/share/fonts/"
   rm IosevkaCustom-*.zip
